@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma;
+    background-color: #1A120B ;
+    color: #E5E5CB;
+  }
+  
+  label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .subtitle{
+    margin-top: 2em;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  #title, #description{
+    text-align: center;
+    margin: 1em auto;
+  }
+  
+  #survey-form{
+    display: block;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #3C2A21;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input, textarea{
+    background-color: #D5CEA3;
+    border: none;
+  }
+  
+  
+  button[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1A120B;
+    border: none;
+    color: #E5E5CB;
+    border-radius: 10px;
+    min-width: 300px;
+  }

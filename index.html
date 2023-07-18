@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Santiago's Suvey Form</h1>
+  <p id="description">This form is for Santiago certification</p>
+  <form id="survey-form">
+    <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+    <label id="email-label">Email<input id="email" type="email" placeholder="example@example.com" required /></label>
+    <label id="number-label">Age (optional)<input id="number" type="number" min=18 max=120 placeholder="Enter your age" required /></label>
+    <label>What is your sex?
+      <select id="dropdown">
+        <option disabled selected value>Sex</option>
+        <option name="sex">Male</option>
+        <option name="sex">Female</option>
+        <option name="sex">Other</option>
+      </select>
+    </label>
+    <label class="subtitle">You have children?</label>
+    <label>
+      <input name="children" value="yes" type="radio" class="inline" /> Yes
+    </label>
+    <label>
+      <input name="children" value="no" type="radio" class="inline" /> No
+    </label>
+    <label class="subtitle">Languages:</label>
+    <label>
+      <input value="en" type="checkbox" class="inline" /> English
+    </label>
+    <label>
+      <input value="es" type="checkbox" class="inline" /> Spanish
+    </label>
+    <label>
+      <input value="ch" type="checkbox" class="inline" /> Chinese
+    </label>
+    <label>
+      <input value="fr" type="checkbox" class="inline" /> French
+    </label>
+    <label class="subtitle"> Short description of your goals:
+      <textarea placeholder="My goal in the future is..." rows=3 cols=5 ></textarea>
+    </label>
+    <button id="submit" value="submit" type="submit" >Submit</button>
+  </form>
+</body>
+</html>
